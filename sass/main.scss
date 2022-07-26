@@ -1,10 +1,20 @@
 /* RESET*/
 @import "./reset/reset";
+
+
+
+/*------index page-------*/
+/*HERO SECTION*/
+@import "./index-page/hero";
 /*FUTURE SECTION*/
-@import "./future";
+@import "./index-page/future";
 /*work section*/
-@import "./work";
+@import "./index-page/work";
 /* team section*/
-@import "./team";
+@import "./index-page/team";
 /*client section*/
-@import "./client";
+@import "./index-page/client";
+
+/*------ partfolio page-------*/
+@import "./partfolio-page/partf"
+
