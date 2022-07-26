@@ -275,25 +275,6 @@ body {
   max-width: 1600px;
   height: 600px;
 }
-@media screen and (min-width: 480px) {
-  .overlay {
-    max-width: 480px;
-    height: 400px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .overlay {
-    max-width: 768px;
-    height: 400px;
-  }
-}
-@media screen and (min-width: 1200px) {
-  .overlay {
-    max-width: 1600px;
-    height: 600px;
-  }
-}
-
 .hero__text {
   margin-top: 0px;
   margin-bottom: 30px;
@@ -1087,7 +1068,7 @@ body {
   font-size: 18px;
   line-height: 1.55;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: rgba(33, 150, 243, 0.9);
   -webkit-transition: -webkit-transform 250ms ease-in-out;
   transition: -webkit-transform 250ms ease-in-out;
@@ -1136,10 +1117,27 @@ body {
 }
 
 .partf-item {
-  width: 370px;
-  margin-right: 30px;
-  background: #FFFFFF;
-  border: 1px solid #EEEEEE;
+  gap: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+@media screen and (min-width: 480px) {
+  .partf-item {
+    width: 450px;
+    height: 404px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .partf-item {
+    width: 354;
+    height: 440px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .partf-item {
+    width: 370px;
+    height: 404px;
+  }
 }
 
 .partf-item:hover .partf-item-overlay {
