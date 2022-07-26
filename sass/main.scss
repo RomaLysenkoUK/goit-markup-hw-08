@@ -1,9 +1,18 @@
 /* RESET*/
+@import "./utils/vars";
+
 @import "./reset/reset";
 
+@import "./base/common";
+/*container*/
+@import "./base/container";
+/*section*/
+@import "./base/section";
 
+@import "./base/section-title";
 
 /*------index page-------*/
+@import "./components/header";
 /*HERO SECTION*/
 @import "./index-page/hero";
 /*FUTURE SECTION*/
@@ -15,6 +24,9 @@
 /*client section*/
 @import "./index-page/client";
 
-/*------ partfolio page-------*/
-@import "./partfolio-page/partf"
+@import "./components/footer";
 
+@import "./components/modal";
+
+/*------ partfolio page-------*/
+@import "./partfolio-page/partf";
