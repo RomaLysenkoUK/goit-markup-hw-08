@@ -1,0 +1,36 @@
+.client {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.client-box {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+        color: var(--accent-color);
+    }
+}
+
+.client-link {
+    color: currentColor;
+}
+
+.client-icon {
+    fill: currentColor;
+}
