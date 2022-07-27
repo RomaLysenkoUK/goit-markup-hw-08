@@ -38,10 +38,58 @@
                         <svg class="icon-email">
                             <use href="./images/icons2.svg#icon-envelope"></use>
                         </svg>info@devstudio.com</a></li>
-                <li class="contact-item "><a href="tel:+380961111111" class="contact-link link"><svg class="icon-tel">
+                <li class="contact-item "><a href="tel:+380961111111" class="contact-link link tel-tel"><svg
+                            class="icon-tel">
                             <use href="./images/icons2.svg#icon-smartphone"></use>
                         </svg>+380961111111</a></li>
             </ul>
+            <!-- menu btn -->
+            <button class="header__menu-btn menu-btn" type="button" aria-label="Переключатель мобильного меню"
+                data-menu-button>
+                <svg width="40" height="40" aria-label="Переключатель мобильного меню">
+                    <use class="menu-btn__open" href="./images/symbol-menu.svg#icon-menu_24px"></use>
+                    <use class="menu-btn__close" href="./images/symbol-close.svg#icon-close-black-18dp-2-1"></use>
+                </svg>
+            </button>
+            <!-- heder menu -->
+            <div class="mobile-menu" data-menu>
+                <ul class="menu-section list">
+                    <li class="menu-section__item">
+                        <a class="menu-section__link menu-section__link--accent" href="./index.html">Студия</a>
+                    </li>
+                    <li class="menu-section__item">
+                        <a class="menu-section__link" href="./partfolio.html">Портфолио</a>
+                    </li>
+                    <li class="menu-section__item">
+                        <a class="menu-section__link" href="#contact">Контакты</a>
+                    </li>
+                </ul>
+
+                <ul class="menu-group list">
+                    <li class="menu-group__item">
+                        <a href="tel:+380961111111" class="menu-group__tel">+38 096 111 11 11</a>
+                    </li>
+                    <li class="menu-group__item">
+                        <a href="mailto:info@devstudio.com" class="menu-group__email">info@devstudio.com</a>
+                    </li>
+                </ul>
+
+                <ul class="menu-socials list">
+                    <li class="menu-socials__item">
+                        <a class="menu-socials__link" href="">Instagram</a>
+                    </li>
+                    <li class="menu-socials__item">
+                        <a class="menu-socials__link" href="">Twitter</a>
+                    </li>
+                    <li class="menu-socials__item">
+                        <a class="menu-socials__link" href="">Facebook</a>
+                    </li>
+                    <li class="menu-socials__item">
+                        <a class="menu-socials__link" href="">LinkedIn</a>
+                    </li>
+                </ul>
+
+            </div>
         </div>
     </header>
     <main>
@@ -355,7 +403,7 @@
             </div>
         </div>
     </footer>
-    <!--<div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button class="modal-btn" type="button" data-modal-close>
                 <svg class="modal-btn-icon">

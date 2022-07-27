@@ -18,17 +18,25 @@
 .nav-container {
   display: block;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  @media screen and (min-width: 767px) {
+    align-items: center;
+  }
 }
 
 .nav {
   display: block;
-  display: flex;
   align-items: center;
+  @media screen and (min-width: 767px) {
+    display: flex;
+  }
 }
 
 .site-nav {
-  display: flex;
+  display: none;
+  @media screen and (min-width: 767px) {
+    display: flex;
+  }
 }
 
 .site-nav-thumb {
@@ -73,12 +81,26 @@
 }
 
 .contacts {
-  display: flex;
+  display: none;
+  @media screen and (min-width: 767px) {
+    gap: 10px;
+    .tel-tel {
+      margin-left: 8px;
+    }
+    display: flex;
+    flex-direction: column;
+  }
   margin-left: auto;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+  }
 }
 
 .contacts .contact-item + .contact-item {
-  margin-left: 50px;
+  @media screen and (min-width: 1200px) {
+    margin-left: 50px;
+  }
 }
 
 .contact-link {
