@@ -12,8 +12,8 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
 </head>
 
 <body>
@@ -110,19 +110,17 @@
                             <picture>
                                 <!-- desctop -->
                                 <source media="(min-width: 1200px)"
-                                    srcset="./images/img-parf/img-1desk.jpg , ./images/img-parf/img@2x-desk.jpg"
-                                    type="image/jpg" />
+                                    srcset="./images/img-partf/img-1_desk@1x.jpg 1x, ./images/img-partf/img-1_desk@2x.jpg 2x " />
                                 <!-- tablet screen -->
                                 <source media="(min-width: 768px)"
-                                    srcset="./images/img-parf/img1-md.jpg , ./images/img-parf/img@2x-md.jpg "
-                                    type="image/jpg" />
+                                    srcset="./images/img-partf/img-1_tab@1x.jpg 1x, ./images/img-partf/img-1_tab@2x.jpg 2x " />
                                 <!-- mobile screen -->
                                 <source media="(max-width: 767px)"
-                                    srcset="./images/img-partf/img-1min , ./images/img-partf/img@2x-min "
-                                    type="image/jpg" />
-                                <img src="./images/k-1.jpg" alt="portfolio2" width="370" height="294" loading="lazy">
+                                    srcset="./images/img-partf/img-1_mob@1x.jpg 1x, ./images/img-partf/img-1_mob@2x.jpg 2x " />
+
+                                <img src="./images/img-partf/img-1_mob@1x.jpg" alt="portfolio2" width="450" height="294"
+                                    loading="lazy">
                             </picture>
-                            <img src="./images/k.jpg" alt="portfolio1" width="370" height="294">
                             <p class="partf-item-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем
                                 функціоналу та сервісів. Все це
                                 дозволить відвідувачу отримати
